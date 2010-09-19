@@ -1,3 +1,5 @@
 So if we have two musical artists A and B, this finds the shortest path from A and B between artists. That is, imagine a graph with nodes corresponding to musical artists and edges corresponding to a "similarity" relation (with weights -- lower weights <==> similar artists). This finds the shortest path between A and B!
 
+Kind of. It's a bit trickier than that, but that's the basic intuition.
+
 The "similarity" metric is given to us from last.fm (which uses User Library co-occurrence, among other things).
